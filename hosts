@@ -1,5 +1,5 @@
 [staging_servers]
-linux1 ansible_host=192.168.56.102
+linux1 ansible_host=192.168.56.102 owner=Igor
 
 [staging_APP:children]
 staging_servers
